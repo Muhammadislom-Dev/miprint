@@ -1,0 +1,12 @@
+.subcatalog{
+    width: 90%;
+}
+
+.subcatalog-select{
+    width: 50%;
+    border-radius: 2px solid #0055a5;
+    margin: 35px;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 8px;
+}

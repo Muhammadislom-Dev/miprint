@@ -1,0 +1,43 @@
+.large-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.about__name{
+    font-size: 40px;
+    line-height: 50px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin:30px auto;
+    color: #0055A5;
+}
+
+.about-imgs{
+    border-radius: 20px;
+    width: 600px;
+    height: 450px;
+}
+
+.img-container{
+    align-items: center;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.about-text{
+    font-family: inherit;
+    font-size: 16px;
+    letter-spacing: .24px;
+    line-height: 26px;
+    margin-top: 40px;
+    color: #0055A5;
+}
+
+.aboutp{
+    background-color:#F2F3EE;
+    padding: 30px 0;
+}

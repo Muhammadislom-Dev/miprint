@@ -1,0 +1,43 @@
+.profil{
+    background:#EABF9F;;
+    padding: 20px 35px;
+}
+
+.profil-img{
+    width: 150px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.profil-title, .profil-item{
+    display: flex;
+    align-items: center;
+}
+
+.profil-page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profil-input{
+    width: 400px;
+    background-color: #ddd;
+    padding: 8px 15px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    margin-left: 50px;
+}
+
+.profil-name{
+    color: #fff;
+    font-size: 22px;
+}
+
+.profil-items{
+    padding:10px 13px;    
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0 15px;
+}

@@ -1,0 +1,117 @@
+.product{
+    padding: 70px 0;
+    background-color: #F7F4EE;
+    position: relative;
+}
+.product-name{
+    margin-left: 80px;
+    font-size: 40px;
+    line-height: 45px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color: #302780;
+}
+
+.product-link{
+    text-decoration: none;
+}
+
+.product-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-img{
+    width: 280px;
+    padding: 10px 0;
+}
+
+.product-names{
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    line-height: 30px;
+    font-weight: 500;
+    color: #302780;
+}
+
+.product-cost{
+    color: #302780;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+
+.product-text{
+    width: 250px;
+    margin: 0 auto;
+    font-weight: 400;
+    color: #302780;
+}
+
+.product-title{
+    text-align: center;
+    width: 300px;
+    height: 390px;
+    margin: 15px 25px;
+    border-radius: 20px;
+    box-shadow: 0px 20px 50px 0px rgb(12 21 41 / 10%);
+    background-color: #fff;
+    transition: 0.5s !important;
+    position: relative;
+}
+
+
+.product-title{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+/* .product-title:hover::after{
+    transform: translateY(0);
+    transition: 1000ms;
+}
+.product-title::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(130, 233, 45, 0.3);
+    transform: translateY(-500px);
+}
+
+.product-title:hover .products__item-btns {
+    opacity: 1;
+  } */
+
+
+.products__item-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    opacity: 0;
+    position: absolute;
+    left: 6%;
+    top: 25%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    transition: .3s;
+    z-index: 1;
+}
+
+.products__item-btn {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 0 #fff;
+    cursor: pointer;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+}

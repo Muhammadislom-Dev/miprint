@@ -1,0 +1,117 @@
+.section {
+  padding: 50px 0;
+  position: relative;
+  width: 100%;
+}
+
+
+.section-names {
+  font-family: "Pacifico", cursive;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.section-name {
+  padding: 10px 0;
+  font-family: "Rubik", sans-serif;
+  color: #fff;
+  font-size: 60px;
+  line-height: 70px;
+}
+
+.section-text{
+    color: #fff;
+    font-size: 18px;
+    width: 500px;
+}
+
+.section-left>a{
+    display: block;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #f00;
+    padding: 15px 25px 18px 25px;
+    border-radius: 30px;
+    transition: 0.5s;
+    font-size: 18px;
+    border: 2px solid #f00;
+}
+
+.section-left>a:hover{
+    color: #f00;
+    background-color: #fff;
+    border: 3px solid #f00;
+}
+
+.section-subtext{
+    color: #fff;
+}
+
+.section-img{
+    height: 450px;
+    width: 100%;
+}
+
+.section-page{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-left{
+    width: 100%;
+    padding: 55px 0;
+    padding-left: 100px;
+    background-color: #302780;
+}
+
+.section-right{
+    width: 100%;
+}
+
+.section-btn{
+    position: absolute;
+    width: 120px;
+    border: none;
+    background-color: #fff;
+    z-index: 1;
+    height: 120px;
+    left: 75%;
+    top: 35%;
+    border-radius: 50%;
+    transition: 0.9s;
+}
+.section-btn:hover{
+    transform: scale(1.15);
+}
+
+.section-play{
+    width: 50px;
+}
+
+.modal-btn{
+    border: none;
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: -1%;
+    z-index:1;
+    left: 95%;
+}
+
+.section-modal{
+    width: 660px;
+    height: 350px;
+}
+
+.modal-close{
+    width: 25px;
+    height: 25px;
+}
+
+.section .ReactModal__Overlay .ReactModal__Overlay--after-open{
+    background-color: red;
+}

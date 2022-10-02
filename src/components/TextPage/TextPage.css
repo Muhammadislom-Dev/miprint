@@ -1,0 +1,29 @@
+.textpage{
+    padding: 40px 0;
+}
+
+
+.textpage-name{
+    font-size: 33px;
+    line-height: 35px;
+    font-weight: 400;
+    color: #302780;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.textpage-name:hover{
+    color: #da167b;
+}
+
+.textpage-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    transition: 0.5s;
+    cursor: pointer;
+    color: #302780;
+}
+
+.textpage-text:hover{
+    color: #da167b;
+}

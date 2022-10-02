@@ -1,0 +1,83 @@
+.second {
+  background-color: #f7f4ee;
+  padding: 40px 0;
+}
+
+.second-img {
+  width: 220px;
+  height: 200px;
+  margin-left: 20px;
+}
+
+.second-name{
+    margin-left: 80px;
+    margin-top: 10px;
+    font-size: 40px;
+    line-height: 45px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color: #302780;
+}
+
+.second-list {
+  max-width: 300px;
+  background-color: #fff;
+  border-radius: 9px;
+  padding: 19px;
+}
+
+.second-btn {
+  padding: 12px 12px;
+  background-color: #302780;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  display: flex;
+  width: 130px;
+  align-items: center;
+  font-style: italic;
+  text-decoration: none;
+  gap: 10px;
+  transition: 0.5s;
+}
+
+.second-btn:hover{
+    color: #fff;
+}
+
+.blogs__btn-icon {
+  font-size: 17px;
+}
+.second-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second-date{
+    align-items: center;
+    color: #747474;
+    display: flex;
+    font-size: 15px;
+    gap: 4px;
+    margin-top: 12px;
+}
+
+.second-names{
+    margin: 10px 0;
+}
+
+.second-page{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.second-text{
+  width: 100%;
+  overflow: hidden;
+  height: 60px;
+}

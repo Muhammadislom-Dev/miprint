@@ -1,0 +1,26 @@
+.template-input{
+    width: 250px;
+    padding: 8px 15px;
+    border: 2px solid #0055a5;
+    border-radius: 8px;
+    outline: none;
+    margin: 20px;
+}
+
+.template-form{
+    margin: 35px;
+}
+
+.template-btn{
+    width: 180px;
+    height: 45px;
+    border: 2px solid #0055a5;
+    color: #fff;
+    background-color: #0055a5;
+    border-radius: 8px;
+    transition: 0.8s;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    margin: 0 25px;
+}

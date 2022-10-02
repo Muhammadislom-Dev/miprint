@@ -1,0 +1,109 @@
+.content{
+    padding: 30px 0;
+    background-color: #302780;
+}
+
+.content-name{
+    font-family: "Rubik", sans-serif;
+    color: #ddd;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.content-box{
+    display: flex;
+}
+
+.content-subname{
+    font-family: "Rubik", sans-serif;
+    color: #ddd;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 10px;
+    padding: 15px 0;
+}
+
+.content-input{
+    width: 400px;
+    border-radius: 8px;
+    outline: none;
+    background-color: #ddd;
+    border: none;
+    padding: 7px 10px;
+    margin:0 10px;
+}
+
+.content-inputs{
+    border-radius: 8px;
+    outline: none;
+    background-color: #ddd;
+    border: none;
+    padding: 7px 10px;
+    width: 200px;
+    margin: 0 10px;
+}
+
+.content-text{
+    background-color: #5344de;
+    padding: 10px 18px;
+    margin: 0 10px;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    line-height: 22px;
+    font-size: 16px;
+    transition: 0.8s;
+    font-weight: 600;
+}
+
+.content-subtext{
+    background-color: #fff;
+    padding: 10px 18px;
+    margin: 0 10px;
+    border-radius: 30px;
+    color: #5344de;
+    cursor: pointer;
+    line-height: 22px;
+    font-size: 16px;
+    transition: 0.8s;
+    font-weight: 600;
+}
+
+.content-subtext:hover{
+    color: #fff;
+    background-color: #5344de;
+}
+
+.content-text:hover{
+    color: #5344de;
+    background-color: #fff;
+}
+
+.content-titles{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.content-number{
+    color: #ddd;
+    font-size: 25px;
+    line-height: 40px;
+    font-family: "Rubik", sans-serif;
+    margin-top: 13px;
+    margin: 0 15px;
+}
+
+.content-link{
+    color: #5344de;
+    background-color: #fff;
+    padding: 10px 25px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    text-decoration: none;
+    border-radius: 15px;
+    margin:0 15px;
+}

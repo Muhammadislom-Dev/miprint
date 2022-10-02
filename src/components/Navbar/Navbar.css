@@ -1,0 +1,79 @@
+.navbar{
+    margin: 20px 0;
+}
+
+.navbar-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-img{
+    width: 250px;
+}
+.navbar-label{
+    outline: none;
+    border: 1.5px solid #000;
+    width: 350px;
+    padding: 8px 13px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.navbar-imgs{
+    width: 20px;
+    cursor: pointer;
+}
+.navbar-input{
+    border: none;
+    width: 100%;
+    outline: none;
+    padding: 0 10px;
+}
+.navbar-button{
+    border: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 0px 5px 5px 0px;
+    background-color:dodgerblue;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.navbar-image{
+    width: 20px;
+    height: 20px;
+}
+.navbar-form{
+    display: flex;
+    align-items: center;
+}
+.navbar-phone{
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    color: #000;
+    font-weight: 500;
+    font-size: 18px;
+    transition: 0.5s;
+    line-height: 20px;
+}
+.navbar-phone:hover{
+    transform: scale(1.1);
+}
+.navbar-pic{
+    width: 25px;
+}
+
+.navbar-link{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    padding: 5px 8px;
+}

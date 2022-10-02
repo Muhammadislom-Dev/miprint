@@ -1,0 +1,30 @@
+.category {
+  background: #01384d;
+  padding: 25px;
+  width: 250px;
+  height: 110vh;
+}
+
+.category-list {
+  list-style-type: none;
+}
+
+.category-item {
+  margin: 15px 0;
+}
+
+.category-link {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  transition: 0.8s;
+  padding: 15px 0;
+}
+
+.category-link:hover{
+    color: #fff;
+}
